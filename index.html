@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Food Label Analyzer – Ingredients</title>
+</head>
+<body>
+  <div class="container">
+    <h1>📸 AI Food Label Ingredients</h1>
+
+    <div class="upload-section">
+      <label class="upload-label">Upload Ingredients Image:</label>
+      <label class="file-btn">
+        Choose File
+        <input type="file" id="ingredientsInput" accept="image/*">
+      </label>
+      <img id="ingredientsPreview" alt="Preview of uploaded image">
+    </div>
+
+    <button onclick="analyzeIngredients()">🔍 Analyze Ingredients</button>
+
+    <div id="status">Status: Waiting...</div>
+
+    <h3 style="margin-bottom:0.5em;">📖 Result:</h3>
+    <div id="result"></div>
+  </div>
+
+  <!-- Tesseract.js for OCR -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/string-similarity/umd/string-similarity.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

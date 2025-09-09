@@ -1,0 +1,69 @@
+{
+  "refined wheat flour": {
+    "category": "Unhealthy",
+    "reason": "Refined wheat flour (maida) is low in fiber and nutrients, and can spike blood sugar levels.",
+    "after_effects": "May cause weight gain, increased risk of diabetes, and digestive issues if consumed frequently.",
+    "after_taste": "Neutral, soft texture in baked goods."
+  },
+  "refined palm oil": {
+    "category": "Unhealthy",
+    "reason": "Palm oil is high in saturated fats which may raise cholesterol levels.",
+    "after_effects": "Excessive intake may increase risk of heart disease.",
+    "after_taste": "Neutral, slightly greasy."
+  },
+  "sugar": {
+    "category": "Unhealthy",
+    "reason": "High sugar intake increases risk of obesity, diabetes, and cavities.",
+    "after_effects": "Energy spikes followed by crashes, weight gain if over-consumed.",
+    "after_taste": "Sweet taste, addictive."
+  },
+  "cashew nuts": {
+    "category": "Healthy",
+    "reason": "Cashews are a good source of healthy fats, protein, vitamins, and minerals.",
+    "after_effects": "Boosts energy, supports heart and brain health when eaten in moderation.",
+    "after_taste": "Nutty, creamy, slightly sweet."
+  },
+  "invert sugar syrup": {
+    "category": "Unhealthy",
+    "reason": "A form of sugar that is quickly absorbed, raising blood sugar levels.",
+    "after_effects": "Similar to sugar — may cause weight gain and energy crashes.",
+    "after_taste": "Very sweet, smooth texture."
+  },
+  "milk solids": {
+    "category": "Moderate",
+    "reason": "Source of protein and calcium, but may contain lactose which can be hard to digest for some.",
+    "after_effects": "Good for bone health, but may cause bloating in lactose-intolerant people.",
+    "after_taste": "Creamy, milky flavor."
+  },
+  "butter": {
+    "category": "Moderate",
+    "reason": "Butter contains healthy fats but also high levels of saturated fats.",
+    "after_effects": "In moderation supports vitamin absorption, but excess intake may raise cholesterol.",
+    "after_taste": "Rich, creamy, savory."
+  },
+  "raising agents": {
+    "category": "Neutral",
+    "reason": "Used to make baked goods rise, usually safe in regulated amounts.",
+    "after_effects": "No significant effects in small quantities.",
+    "after_taste": "Neutral, no taste contribution."
+  },
+  "iodised salt": {
+    "category": "Moderate",
+    "reason": "Provides iodine which supports thyroid function, but too much sodium is harmful.",
+    "after_effects": "In moderation helps prevent goiter; excessive intake may cause hypertension.",
+    "after_taste": "Salty, enhances flavor."
+  },
+  "emulsifier": {
+    "category": "Neutral",
+    "reason": "Helps mix oil and water in processed foods; considered safe in small quantities.",
+    "after_effects": "Generally safe, but some emulsifiers may affect gut health if consumed in excess.",
+    "after_taste": "Neutral, no flavor."
+  },
+  "flavouring substances": {
+    "category": "Unhealthy",
+    "reason": "Artificial and nature-identical flavoring substances add taste but provide no nutrition.",
+    "after_effects": "Some artificial flavors may trigger allergies or sensitivities.",
+    "after_taste": "Varies (in this case, milk and vanilla flavor)."
+  }
+}
+  
