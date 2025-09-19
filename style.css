@@ -163,6 +163,6 @@ button:active, button:hover { background: #218442; }
   .upload-section { margin-bottom:16px;}
 }
 
-p {
+.text-center {
     text-align: center;
 }
