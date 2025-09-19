@@ -90,7 +90,7 @@ function generateReportHTML(detailedReport, ingText, counts, percentagesSummary,
   }
 
   if (unknownIngredients.length > 0) {
-    html += `<p><b>Unknown Ingredients:</b> ${unknownIngredients.join(", ")}</p>`;
+    html += ``;
   }
 
   html += `<div class="summary-box" style="border:1px solid #ddd; border-radius:10px; padding:15px; margin-top:15px; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
