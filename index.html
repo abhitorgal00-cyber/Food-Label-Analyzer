@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
   <title>Food Label Analyzer – Ingredients</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Cropper.js CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.css" rel="stylesheet" />
 </head>
+
 <body>
   <div class="container">
     <h1>📸 Food Label Analyzer - Micro Project</h1>
@@ -17,25 +21,38 @@
         Choose File
         <input type="file" id="ingredientsInput" accept="image/*">
       </label>
-      <img id="ingredientsPreview" alt="Preview of uploaded image">
+      <div class="image-wrapper">
+        <img id="ingredientsPreview" >
+      </div>
+
+      <div id="crop-container"
+        style="display:flex; flex-direction:column; align-items:center; gap:10px; margin-bottom:20px;">
+        <input type="file" id="ingredientsInput" accept="image/*" style="margin-bottom:10px;" />
+        
+        <div id="crop-controls"
+          style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:10px;">
+          <button class="crop-btn" id="rotateLeft">⟲ Rotate Left</button>
+          <button class="crop-btn" id="rotateRight">⟳ Rotate Right</button>
+          <button class="crop-btn" id="zoomIn">➕ Zoom In</button>
+          <button class="crop-btn" id="zoomOut">➖ Zoom Out</button>
+          <button class="crop-btn" id="cropImage">✂️ Crop Image</button>
+        </div>
+      </div>
     </div>
 
-    <button onclick="analyzeIngredients()">🔍 Analyze Ingredients</button>
+    <button id="analyzeBtn">🔍 Analyze Ingredients</button>
 
     <div id="status">Status: Waiting...</div>
 
-    <h3 style="margin-bottom:0.5em;">📖 Result:</h3>
+    <h3>📖 Result:</h3>
     <div id="result"></div>
   </div>
 
-
-  <script></script>
-  <!-- Tesseract.js for OCR -->
+  <!-- Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
   <script src="https://cdn.jsdelivr.net/npm/string-similarity/umd/string-similarity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
-    
