@@ -103,5 +103,244 @@
     "after_effects": "May cause allergic reactions for some people.",
     "after_taste": "No taste.",
     "synonyms": ["food coloring", "e102", "e110"]
+  },
+  "malt": {
+    "category": "Moderate",
+    "reason": "Source of carbohydrates, may affect blood sugar if consumed in excess.",
+    "after_effects": "May raise blood sugar.",
+    "after_taste": "Malty, slightly sweet.",
+    "synonyms": ["malt extract", "malted barley"]
+  },
+  "barley": {
+    "category": "Healthy",
+    "reason": "Rich in fiber and micronutrients, supports digestion.",
+    "after_effects": "May cause bloating in large amounts.",
+    "after_taste": "Nutty, earthy.",
+    "synonyms": ["hulled barley", "pearl barley"]
+  },
+  "wheat flour": {
+    "category": "Moderate",
+    "reason": "Source of energy and some nutrients, but contains gluten which is a common allergen.",
+    "after_effects": "Digestive issues for gluten-sensitive people.",
+    "after_taste": "Mild flour taste.",
+    "synonyms": ["atta", "whole wheat flour"]
+  },
+  "millet": {
+    "category": "Healthy",
+    "reason": "Nutritious whole grain, good source of fiber and minerals.",
+    "after_effects": "Generally well-tolerated.",
+    "after_taste": "Mild, nutty.",
+    "synonyms": ["finger millet", "pearl millet"]
+  },
+  "wheat gluten": {
+    "category": "Moderate",
+    "reason": "Protein source, but common allergen for some people.",
+    "after_effects": "Digestive discomfort for sensitive people.",
+    "after_taste": "No strong taste.",
+    "synonyms": ["gluten"]
+  },
+  "edible iodized salt": {
+    "category": "Neutral",
+    "reason": "Essential nutrient in small amounts; excessive intake can raise blood pressure.",
+    "after_effects": "Possible high blood pressure with excess consumption.",
+    "after_taste": "Salty.",
+    "synonyms": ["table salt", "iodized sodium chloride"]
+  },
+  "soy protein isolate": {
+    "category": "Moderate",
+    "reason": "High-protein option, but allergy risk for some.",
+    "after_effects": "Possible allergic reaction.",
+    "after_taste": "Mild, beany.",
+    "synonyms": ["soy protein", "isolated soy protein"]
+  },
+  "acidity regulators (INS 501(ii), INS 500(ii))": {
+    "category": "Neutral",
+    "reason": "Used to control acidity and pH; generally safe.",
+    "after_effects": "Rare side effects.",
+    "after_taste": "No taste.",
+    "synonyms": ["sodium carbonate", "potassium carbonate"]
+  },
+  "vitamins": {
+    "category": "Healthy",
+    "reason": "Supplement nutrition, generally beneficial.",
+    "after_effects": "Improves overall health; excess intake may have side effects.",
+    "after_taste": "No taste.",
+    "synonyms": ["added vitamins", "fortification"]
+  },
+  "refined wheat flour (maida)": {
+    "category": "Moderate",
+    "reason": "Processed grain; low in fiber and nutrients compared to whole grain.",
+    "after_effects": "Can spike blood sugar.",
+    "after_taste": "Neutral.",
+    "synonyms": ["maida", "white flour"]
+  },
+  "refined palmolein oil": {
+    "category": "Unhealthy",
+    "reason": "High in saturated fats and may contribute to heart disease.",
+    "after_effects": "May increase cholesterol levels.",
+    "after_taste": "Neutral.",
+    "synonyms": ["palm oil", "palmolein oil"]
+  },
+  "hydrogenated vegetable oil": {
+    "category": "Unhealthy",
+    "reason": "Contains trans fats linked to heart disease.",
+    "after_effects": "May raise bad cholesterol levels.",
+    "after_taste": "Neutral.",
+    "synonyms": ["shortening", "partially hydrogenated oil"]
+  },
+  "eggs": {
+    "category": "Healthy",
+    "reason": "Good protein source and contains essential nutrients.",
+    "after_effects": "Generally healthy in moderation.",
+    "after_taste": "Eggy.",
+    "synonyms": ["whole eggs"]
+  },
+  "emulsifiers (471, 477)": {
+    "category": "Neutral",
+    "reason": "Food additives used for texture; generally considered safe.",
+    "after_effects": "Rare side effects.",
+    "after_taste": "No taste.",
+    "synonyms": ["mono- and diglycerides", "propylene glycol esters"]
+  },
+  "humectants (422, 420i)": {
+    "category": "Neutral",
+    "reason": "Help retain moisture in products; generally safe.",
+    "after_effects": "Rare side effects.",
+    "after_taste": "No taste.",
+    "synonyms": ["glycerol", "sorbitol"]
+  },
+  "liquid glucose": {
+    "category": "Unhealthy",
+    "reason": "High glycemic index; spikes blood sugar.",
+    "after_effects": "May cause rapid blood sugar increase.",
+    "after_taste": "Sweet.",
+    "synonyms": ["glucose syrup"]
+  },
+  "baking powder/raising agents (500ii, 450i, 341i)": {
+    "category": "Neutral",
+    "reason": "Used for leavening; generally safe in small quantities.",
+    "after_effects": "Rare side effects.",
+    "after_taste": "No taste.",
+    "synonyms": ["baking soda", "sodium aluminium phosphate", "calcium phosphate"]
+  },
+  "cocoa solids (0.2%)": {
+    "category": "Healthy",
+    "reason": "Rich in antioxidants and minerals when consumed in moderation.",
+    "after_effects": "Generally safe in small amounts.",
+    "after_taste": "Chocolatey, bitter.",
+    "synonyms": ["cocoa powder"]
+  },
+  "artificial flavours (vanilla, chocolate)": {
+    "category": "Unhealthy",
+    "reason": "May contain synthetic chemicals, possible sensitivity in some people.",
+    "after_effects": "Potential for allergic reactions.",
+    "after_taste": "No aftertaste.",
+    "synonyms": ["flavouring agents"]
+  },
+  "colours (150c, 150d, 102, 122, 132, 133)": {
+    "category": "Unhealthy",
+    "reason": "Some artificial colours are linked to hyperactivity and allergies.",
+    "after_effects": "Possible hyperactivity, allergic reactions.",
+    "after_taste": "No taste.",
+    "synonyms": ["food colours", "E150c", "E150d", "E102", "E122", "E132", "E133"]
+  },
+  "preservatives (200, 282)": {
+    "category": "Moderate",
+    "reason": "Preserve shelf life; safe in regulated amounts but can cause sensitivity.",
+    "after_effects": "Possible allergic or digestive reactions.",
+    "after_taste": "No taste.",
+    "synonyms": ["sorbic acid", "calcium propionate"]
+  },
+  "coriander": {
+    "category": "Healthy",
+    "reason": "Aromatics with digestive benefits and low allergy risk.",
+    "after_effects": "Rare allergies or digestive upset.",
+    "after_taste": "Earthy, citrus-like.",
+    "synonyms": ["cilantro", "dhania"]
+  },
+  "chilli": {
+    "category": "Moderate",
+    "reason": "Adds heat; may cause digestive irritation or sensitivity.",
+    "after_effects": "Possible digestive discomfort and allergic reactions.",
+    "after_taste": "Pungent heat.",
+    "synonyms": ["red chilli", "mirchi", "chili pepper"]
+  },
+  "cumin": {
+    "category": "Healthy",
+    "reason": "Promotes digestion and has antioxidant properties.",
+    "after_effects": "Mild heartburn in rare cases.",
+    "after_taste": "Nutty, earthy.",
+    "synonyms": ["jeera", "cuminum"]
+  },
+  "cassia_leaf": {
+    "category": "Healthy",
+    "reason": "Aromatic flavoring with no major side effects in usual culinary amounts.",
+    "after_effects": "Rare allergenic reactions.",
+    "after_taste": "Sweet, cinnamon-like.",
+    "synonyms": ["tejpatta", "Indian bay leaf"]
+  },
+  "black_pepper": {
+    "category": "Moderate",
+    "reason": "Pungency and enhances nutrient absorption; possible irritation in high amounts.",
+    "after_effects": "Digestive discomfort in some people.",
+    "after_taste": "Sharp, spicy.",
+    "synonyms": ["kali mirch", "peppercorn"]
+  },
+  "cassia_bark": {
+    "category": "Moderate",
+    "reason": "Flavorful but contains coumarin which can be harmful in excess.",
+    "after_effects": "Potential liver toxicity if overused.",
+    "after_taste": "Sweet, woody.",
+    "synonyms": ["Chinese cinnamon", "dalchini"]
+  },
+  "clove": {
+    "category": "Moderate",
+    "reason": "Strong flavor; can cause irritation at high doses.",
+    "after_effects": "Mouth irritation or allergic reactions.",
+    "after_taste": "Strong, spicy, sweet.",
+    "synonyms": ["laung"]
+  },
+  "black_cardamom": {
+    "category": "Healthy",
+    "reason": "Adds smoky aroma; safe with minimal side effects.",
+    "after_effects": "Uncommon allergies.",
+    "after_taste": "Camphor-like, spicy.",
+    "synonyms": ["badi elaichi"]
+  },
+  "star_anise": {
+    "category": "Healthy",
+    "reason": "Licorice flavor; safe in culinary doses.",
+    "after_effects": "Generally safe, rare allergies.",
+    "after_taste": "Sweet, licorice-like.",
+    "synonyms": ["chakra phool"]
+  },
+  "fennel": {
+    "category": "Healthy",
+    "reason": "Sweet flavor; good for digestion.",
+    "after_effects": "Rare allergic responses.",
+    "after_taste": "Sweet, anise-like.",
+    "synonyms": ["saunf", "anise"]
+  },
+  "dried_ginger": {
+    "category": "Healthy",
+    "reason": "Widely used for digestive benefits; low risk.",
+    "after_effects": "Rare heartburn or allergies.",
+    "after_taste": "Spicy, warm.",
+    "synonyms": ["sonth"]
+  },
+  "iodized_salt": {
+    "category": "Neutral",
+    "reason": "Enhances flavor; essential mineral but no health benefit in excess.",
+    "after_effects": "High intake may raise blood pressure.",
+    "after_taste": "Salty.",
+    "synonyms": ["table salt"]
+  },
+  "caraway": {
+    "category": "Healthy",
+    "reason": "Adds flavor and aids digestion.",
+    "after_effects": "Rare allergies.",
+    "after_taste": "Earthy, nutty.",
+    "synonyms": ["shahi jeera", "carum"]
   }
+  
 }
